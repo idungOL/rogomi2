@@ -1,0 +1,160 @@
+#body {
+	width: 950px;
+	margin: 0 auto;
+	}
+
+#image {
+	background-image: url("../img/About/MainImage.png");
+	margin: 10px auto;
+	width: 950px;
+	height: 450px;
+	}
+	
+#phrase {
+	position: relative;
+	top: 10em;
+	left: 530px;
+	font-family: Arial;
+	font-size: 18px;
+	width: 420px;
+	}
+
+#phrase p {
+	font-family: Arial;
+	font-size: 18px;
+	color: #474543;
+	margin: 0;
+	line-height: 150%;
+	}
+
+.emphasize {
+	color: #C66D02;
+	font-size: 21px;
+	}
+
+#portfolio {
+	line-height: 100%;
+	color: #8E8986;
+	font-size: 14px;
+	font-style: italic;
+	font-family: Arial;
+	}
+	
+#portfolio a {
+	line-height: 100%;
+	color: #8E8986;
+	font-size: 14px;
+	font-style: italic;
+	font-family: Arial;
+	text-decoration: none;
+	}
+	
+#bottomPanel {
+	width: 950px;
+	height: 690px;	
+	}
+	
+#hello {
+	float: left;
+	width: 650px;
+	height: 500px;
+	background-color: #E5E3E3;
+	}
+	
+
+
+#imageFrame img{
+	border: 3px solid white;
+	margin: 40px 80px;
+	}
+
+#helloContent {
+	width: 550px;
+	height: 10.05em;	
+	margin: 55px auto;
+	overflow: auto;
+}
+
+#helloContent p {
+	margin: 0;
+	font-family: Arial;
+	color: black;
+	font-size: 12px;
+	text-align: justify;	
+}
+	
+
+#imageFrame {
+	width: 650px;
+	height: 200px;
+	}	
+	
+#tweets {
+	float: right;
+	width: 295px;
+	margin-left: 5px;
+	height: 500px;
+	background-color: #F2F4F4;	
+	}
+
+#tweets img {
+	margin-bottom: 20px;
+	}
+
+#twits {
+	font-family: Arial;
+	font-style: normal;
+	font-size: 13px;
+	color: #333333;
+	margin: 30px 25px;
+}
+
+#twits p {
+	font-family: Arial;
+	font-style: normal;
+	font-size: 13px;
+	color: #333333;
+	margin: 20px 0;
+}
+	
+	
+#leadership {
+	position: relative;
+	top: 10px;
+	width: 950px;
+	height: 175px;
+	background-color: #E3E5E5;
+	clear:both;
+}
+
+#leadBody {
+	width: 900px;
+	height: 125px;
+	margin: 0 25px;
+}
+
+.lead {
+	width: 300px;
+	height: 125px;
+	float: left;
+}
+
+.lead p {
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	color: #10484E;
+	margin-top: 30px;
+}
+
+.lead span {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14px;
+	color: #000000;
+}
+
+.lead img {
+	margin: -15px 10px;
+}	

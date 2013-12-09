@@ -1,0 +1,9 @@
+[21-Oct-2013 03:38:07] PHP Warning:  file_get_contents(http://api.twitter.com/statuses/user_timeline.json?screen_name=rogomiapps) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home4/numlock1/public_html/nslib.net/mailbug/rogomi/about.php on line 7
+[21-Oct-2013 03:39:12] PHP Warning:  file_get_contents(http://api.twitter.com/statuses/user_timeline.json?screen_name=rogomiapps) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home4/numlock1/public_html/nslib.net/mailbug/rogomi/about.php on line 7
+[21-Oct-2013 03:41:39] PHP Warning:  file_get_contents(http://api.twitter.com/statuses/user_timeline.json?screen_name=numlockph) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home4/numlock1/public_html/nslib.net/mailbug/rogomi/about.php on line 7
+[21-Oct-2013 03:42:08] PHP Warning:  file_get_contents(http://api.twitter.com/statuses/user_timeline.json?screen_name=numlockph) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home4/numlock1/public_html/nslib.net/mailbug/rogomi/about.php on line 7
+[04-Dec-2013 23:46:23] PHP Warning:  get_browser() [<a href='function.get-browser'>function.get-browser</a>]: browscap ini directive not set in /home4/numlock1/public_html/nslib.net/mailbug/rogomi/about.php on line 27
