@@ -1,4 +1,4 @@
-<script type="text/javascript" language="javascript"> 
+//<script type="text/javascript" language="javascript"> 
   $(function(){
     $('.numlockph_tweets').vTicker({
        speed: 700,
@@ -6,8 +6,8 @@
        showItems: 5,
        animation: 'fade',
        mousePause: true,
-       height: 0,
+       height: 355,
        direction: 'up'
     });
   });
-</script>
+//</script>

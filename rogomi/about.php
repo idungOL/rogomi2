@@ -8,7 +8,7 @@ require_once('config.php');
 require_once('functions.php');
 
 $url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
-$getfield = '?screen_name=rogomiapps&count=5';
+$getfield = '?screen_name=rogomiapps&count=10';
 $requestMethod = 'GET';
 $twitter = new TwitterAPIExchange($settings);
 $twits = json_decode($twitter->setGetfield($getfield)
@@ -62,6 +62,7 @@ $twits = json_decode($twitter->setGetfield($getfield)
 			<img src="img/About/Tweets_Text.png">
 			
 			<div id="twits">
+				<ul>
 				<?php
 					if ($rogomierr) echo "Ooops! We're having trouble contacting Twitter.";
 					else{
@@ -71,20 +72,21 @@ $twits = json_decode($twitter->setGetfield($getfield)
 						                              
 							<?php
 							foreach ($rogomi_tweets as $tweet ){ ?>
-								<p>
+								<li>
 								<?php echo linkify("{$tweet->text}\n");
 								?>
 								<br><span class="numlockph_tweets_createat"><?php
 								echo date('h:i:s A M d, Y', strtotime($tweet->created_at));
 								?></span>
-								</p>
+								</li>
 							<?php 
 							} ?>
 							
 						</div>
 					<?php
 					}
-					?> 			
+					?>
+				</ul> 			
 			</div>
 			
 		</div>

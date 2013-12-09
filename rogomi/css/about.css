@@ -70,9 +70,9 @@
 
 #helloContent {
 	width: 550px;
-	height: 10.05em;	
+	height: 162px;	
 	margin: 55px auto;
-	overflow: auto;
+	overflow-y: scroll;
 }
 
 #helloContent p {
@@ -80,7 +80,8 @@
 	font-family: Arial;
 	color: black;
 	font-size: 12px;
-	text-align: justify;	
+	text-align: justify;
+	line-height: 16px;
 }
 	
 
@@ -107,6 +108,7 @@
 	font-size: 13px;
 	color: #333333;
 	margin: 30px 25px;
+	height: 355px;
 }
 
 #twits p {
@@ -158,3 +160,15 @@
 .lead img {
 	margin: -15px 10px;
 }	
+
+#tweets ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#tweets li {
+	margin:10px 0;
+	padding:0;
+}
+

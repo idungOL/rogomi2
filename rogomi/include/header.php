@@ -3,6 +3,8 @@
 <head>
 <title>Rogomi - <?php echo $title; ?></title>
 
+
+<script  src="include/jquery.js"></script>
 <link rel="Shortcut Icon" href="img/Home/logos/favicon.ico" />
 <link rel='stylesheet' type='text/css' href='css/header.css' />
 <?php
@@ -10,9 +12,10 @@
 	echo "<link rel='stylesheet' type='text/css' href='css/home.css' />";
 	}
 	elseif($title == 'About'){
-	echo "<link rel='stylesheet' type='text/css' href='css/about.css' />";
-	echo '<script src="include/scrollplugin.js"></script>';
-	echo '<script src="include/tw.js"></script>';
+		echo "<link rel='stylesheet' type='text/css' href='css/about.css' />";
+		echo '<script src="include/scrollplugin.js"></script>';
+		echo '<script src="include/tw.js"></script>';
+	
 	}
 	elseif($title == 'Apps'){
 	echo "<link rel='stylesheet' type='text/css' href='css/apps.css' />";
@@ -22,8 +25,6 @@
 	}
 ?>
 <link rel='stylesheet' type='text/css' href='css/footer.css' />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-</script>
 <script>
 $(document).ready(function(){
  var title = '<?php echo $title; ?>';
@@ -72,9 +73,9 @@ $(document).ready(function(){
 	    $(".about").attr('src','img/Home/navs/Button_About_Inactive.png');
 	  });
 	  }
-  
-  
+	
 });
+
 </script>
 </head>
 
